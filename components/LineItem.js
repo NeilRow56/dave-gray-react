@@ -2,10 +2,7 @@ import { FaTrashAlt } from 'react-icons/fa';
 
 const LineItem = ({ item, handleDelete, handleCheck }) => {
 	return (
-		<div
-			key={item.id}
-			className="flex items-center bg-gray-100  border-b border-white "
-		>
+		<div className="flex items-center bg-gray-100  border-b border-white ">
 			<li className="px-6 py-2  w-full rounded-lg">
 				<input
 					type="checkbox"
