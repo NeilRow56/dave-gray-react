@@ -14,8 +14,10 @@ function index() {
 			<div className="bg-blue-600 text-center w-full mx-auto h-15 text-3xl   ">
 				<Header />
 			</div>
-			<div className=" text-center w-full items-center justify-center text-gray-900 flex flex-1 text-3xl  ">
-				<Content />
+			<div className="  w-full   text-gray-900 flex flex-1 text-3xl w ">
+				<div className="place-content-start w-full">
+					<Content />
+				</div>
 			</div>
 			<div className="bg-blue-600 text-center w-full mx-auto h-15 text-white  text-3xl  ">
 				<Footer />
